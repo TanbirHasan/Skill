@@ -1,0 +1,488 @@
+
+
+
+@import "all.min.css";
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+/*Global css end here*/
+
+/*style for header section*/
+
+.header-section{
+    width: 100%;
+    background: url("../img/SingleBook.jpg") center top no-repeat;
+    background-size: cover;
+    padding: 0px 0px 230px 0px;
+}
+
+
+
+
+.bg-light {
+    padding: 20px 0px;
+    background: #1d464c !important;
+}
+
+
+.header-section .header-text{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.header-section .header-text span{
+    color: #2affb4;
+    word-spacing: normal;
+}
+
+.header-section .menu .navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.header-section .menu .navbar-nav .btn-info{
+    padding: 8px 30px;
+    background:  #2affb4;
+    color: black;
+}
+
+.header-section .banner .banner-inner{
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.header-section .banner .banner-inner p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2affb4;
+}
+.header-section .banner .banner-inner h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #ececec;
+
+}
+.header-section .banner .banner-inner p:nth-of-type(2){
+    color: white;
+}
+.header-section .banner .row:nth-of-type(2){
+    max-width: 60%;
+   
+}
+.header-section .banner .row:nth-of-type(2) .col-md-5 p{
+    color: white;
+    padding-left: 25px;
+    font-weight: 500;
+}
+
+.header-section .banner .row:nth-of-type(2) .col-md-5 .btn-info{
+    padding: 8px 30px;
+    background: transparent;
+    color: black;
+}
+
+.header-section .banner .row:nth-of-type(2) .col-md-1 span{
+    border-right: 1px solid white;
+    margin-left: -20px;
+    padding-bottom: 90px;
+}
+
+
+
+.header-section .banner .row:nth-of-type(2) .col-md-6{
+
+}
+.header-section .banner .row:nth-of-type(2) .col-md-6 p{
+    color: white;
+    padding-left: 30px;
+    font-weight: 500;
+}
+.header-section .banner .row:nth-of-type(2) .col-md-6 .btn-info{
+    padding: 8px 25px;
+    background:  #2affb4;
+    border-color: #2affb4 ;
+    color: black;
+}
+
+.header-section .banner .row:nth-of-type(2) .col-md-5:nth-of-type(1) .btn-info{
+    background: transparent;
+    color: white;
+    padding: 8px 40px;
+    border-color: white;
+}
+
+.header-section .banner .row:nth-of-type(2) .col-md-6:nth-of-type(1) .btn-info:hover{
+    background: #eaeaea;
+
+}
+/*END OF HEADER SECTION*/
+/*CSS START OF CUSTOMER SECTION*/
+
+.customer{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.customer .customer-text{
+    text-align: center;
+}
+.customer .customer-text h1{
+    font-size: 26px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.customer .row .col-sm:nth-of-type(3){
+    padding-top: 10px;
+}
+
+
+.customer .row .col-sm:nth-of-type(5) h1{
+    font-size: 16px;
+    line-height: 5px;
+    padding-top: 20px;
+}
+
+.customer .row .col-sm:nth-of-type(5) p{
+    font-size: 10px;
+    text-align: center;
+    line-height: 4px;
+}
+
+.customer .row .col-sm:nth-of-type(6) em{
+    font-size: 26px;
+
+}
+.customer .row .col-sm:nth-of-type(6) p{
+    font-size: 10px;
+    line-height: 4px;
+
+}
+
+
+/*CSS END OF CUSTOMER SECTION*/
+
+/*start of culture css*/
+.culture{
+    width: 100%;
+    padding: 60px 0px;
+    background: #e9e6e6;
+}
+
+.culture .culture-text{
+    width: 100%;
+    text-align: center;
+
+}
+.culture .culture-text h1{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+
+
+.culture .culture-text p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.culture .culture-text .btn-info{
+    background: transparent;
+    font-size: 15px;
+    font-weight: 700;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+.culture .culture-text .btn-info:hover{
+    background: blueviolet;
+    color: white;
+}
+
+/*end of culture css*/
+
+/*start of learning css*/
+
+.Learning{
+   width: 100%;
+}
+
+.Learning .row .col-md-6{
+    max-width: 100%;
+}
+
+
+.Learning .row .col-md-6:nth-of-type(2) .inner-text{
+    max-width: 100%;
+    padding-top: 20px ;
+    padding-left: 80px;
+}
+
+.Learning .col-md-10 h1{
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.Learning .col-md-10 h3{
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 20px;
+ }
+.Learning .col-md-10 .btn-info{
+    background: transparent;
+    font-size: 15px;
+    padding: 8px 30px;
+    font-weight: 700;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+.Learning .col-md-10 .btn-info:hover{
+    background: blueviolet;
+    color: white;
+}
+
+/*end of learning section*/
+
+/*start of program section*/
+.Program{
+    width: 100%;
+}
+
+.Program .row .col-md-6{
+    max-width: 100%;
+
+}
+
+.Program .row .col-md-6:nth-of-type(1) .inner-text{
+    max-width: 100%;
+    padding-top: 20px ;
+    padding-left: 80px;
+
+}
+
+.Program .col-md-10 h1{
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.Program .col-md-10 h3{
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.Program .col-md-10 .btn-info{
+    background: transparent;
+    font-size: 15px;
+    padding: 8px 30px;
+    font-weight: 700;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+.Program .col-md-10 .btn-info:hover{
+    background: blueviolet;
+    color: white;
+}
+
+/*end of program css*/
+
+/*start of role css*/
+.Role{
+    width: 100%;
+}
+
+.Role .row .col-md-6{
+    max-width: 100%;
+}
+
+
+.Role .row .col-md-6:nth-of-type(2) .inner-text{
+    max-width: 100%;
+    padding-top: 20px ;
+    padding-left: 80px;
+}
+
+.Role .col-md-10 h1{
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.Role .col-md-10 h3{
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.Role .col-md-10 .btn-info{
+    background: transparent;
+    font-size: 15px;
+    padding: 8px 30px;
+    font-weight: 700;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+.Role .col-md-10 .btn-info:hover{
+    background: blueviolet;
+    color: white;
+}
+
+/*end of role css*/
+
+/*start of vedio css*/
+
+.vedio{
+    width: 100%;
+    padding: 100px 0px;
+    background: blue;
+}
+
+.vedio .inner-text h1{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 30px;
+
+}
+
+
+.vedio .row .vedio-player{
+    text-align: center;
+}
+
+
+/*end of vedio css*/
+
+
+/*start of dentos css*/
+.dentos{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.dentos .logo{
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+
+.dentos .inner-text{
+    width: 100%;
+    text-align: center;
+
+}
+
+.dentos .inner-text p{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.dentos .inner-text p:nth-of-type(2){
+    padding-bottom: 50px;
+}
+
+
+
+.dentos .image{
+    text-align: center;
+}
+
+
+
+/*end of dentos css*/
+
+/*start css of footer result section*/
+.result{
+    width: 100%;
+    padding: 80px 0px;
+    background: #006274;
+}
+
+.result .inner-text{
+    text-align: center;
+}
+
+
+.result .inner-text h1{
+    font-size: 52px;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 30px;
+
+}
+.result .inner-text .btn-info{
+    padding: 10px 40px;
+    background:  #2affb4;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.result .information ul{
+    list-style: none;
+    text-align: center;
+}
+
+
+.result .information ul li{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.result .information ul li a{
+    font-size: 17px;
+    padding-right: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+.result .information p{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+/*end of result section*/

@@ -1,0 +1,109 @@
+@media (min-width: 576px) and (max-width: 768px){
+    .img-fluid {
+        max-width: 783px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .Learning .row .col-md-6:nth-of-type(2) .inner-text {
+        max-width: 100%;
+        padding-top: 20px;
+        padding-left: 47px;
+    }
+    .Program .row .col-md-6:nth-of-type(1) .inner-text {
+        max-width: 100%;
+        padding-top: 20px;
+        padding-left: 37px;
+        padding-bottom: 20px;
+    }
+    .Role .row .col-md-6:nth-of-type(2) .inner-text {
+        max-width: 100%;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .inner-text{
+        width: 900px;
+    }
+    .vedio-img{
+        width: 700px;
+    }
+    .header-text{
+        margin-right: 387px;
+    }
+    .result .container .col-md-12 .inner-text{
+        padding-right: 180px;
+    }
+    .header-section .banner .row:nth-of-type(2) .col-md-1 span {
+        border-right: 1px solid white;
+        margin-left: 10px;
+        padding-bottom: 90px;
+    }
+}
+
+
+@media (max-width: 576px){
+    .header-section .banner .banner-inner h1 {
+        font-size: 25px;
+        font-weight: 400;
+        color: #ececec;
+    }
+    img.img-fluid {
+        width: 385px!important;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    video.vedio-img {
+        width: 320px;
+        height: 250px;
+    }
+
+    .result .inner-text h1 {
+        font-size: 32px;
+        color: white;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+    .Learning .row .col-md-6:nth-of-type(2) .inner-text {
+        max-width: 85%;
+        padding-top: 20px;
+        padding-left: 57px;
+    }
+    .Program .row .col-md-6:nth-of-type(1) .inner-text {
+        max-width: 85%;
+        padding-top: 20px;
+        padding-left: 57px;
+        padding-bottom: 15px;
+    }
+    .Role .row .col-md-6:nth-of-type(2) .inner-text {
+        max-width: 85%;
+        padding-top: 20px;
+        padding-left: 57px;
+        padding-bottom: 15px;
+    }
+    .header-text{
+        padding-right: 80px;
+    }
+    .customer{
+        padding-left: 15px;
+    }
+    .header-section .banner .row:nth-of-type(2) .col-md-1 span {
+        border: none;
+    }
+}
+
+
+@media (min-width: 411px) and (max-width: 731px){
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+    img.img-fluid {
+        width: 421px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 667px){
+
+}
+
